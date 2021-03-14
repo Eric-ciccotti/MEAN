@@ -10,7 +10,8 @@ const app = express();
 
 mongoose
   .connect(
-    "mongodb+srv://mimpaye:UAfOlJxSMDmNA54n@cluster0.thyg4.mongodb.net/test?retryWrites=true&w=majority"
+    "mongodb+srv://superadmin:kKAZ8K3GlS32Qu4W@cluster0.gh16c.mongodb.net/mean?retryWrites=true&w=majority",
+    {useNewUrlParser: true , useUnifiedTopology: true, useCreateIndex: true }
   )
   .then(() => {
     console.log("Connected to database!");
