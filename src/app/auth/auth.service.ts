@@ -6,6 +6,7 @@ import { Subject } from "rxjs";
 import { AuthData } from "./auth-data.model";
 
 @Injectable({ providedIn: "root" })
+
 export class AuthService {
   private isAuthenticated = false;
   private token: string;
