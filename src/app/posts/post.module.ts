@@ -20,6 +20,4 @@ import { PostListComponent } from "./post-list/post-list.component";
   ]
 })
 
-export class PostModule {
-
-}
+export class PostModule {}
