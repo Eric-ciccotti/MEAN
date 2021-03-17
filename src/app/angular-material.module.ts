@@ -22,5 +22,4 @@ import {
     MatDialogModule,
   ]
 })
-
 export class AngularMaterialModule {}
