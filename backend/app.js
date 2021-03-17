@@ -10,7 +10,7 @@ const app = express();
 
 mongoose
   .connect(
-    "mongodb+srv://superadmin:kKAZ8K3GlS32Qu4W@cluster0.gh16c.mongodb.net/mean?retryWrites=true&w=majority",
+    "mongodb+srv://superadmin:" + process.env.MONGO_ATLAS_PW + "@cluster0.gh16c.mongodb.net/mean?retryWrites=true&w=majority",
     {useNewUrlParser: true , useUnifiedTopology: true, useCreateIndex: true }
   )
   .then(() => {

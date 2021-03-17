@@ -1,0 +1,6 @@
+{
+  "env": {
+    "MONGO_ATLAS_PW": "kKAZ8K3GlS32Qu4W",
+    "JWT_SECRET": "i_wanna_make_50k_right_now"
+  }
+}
